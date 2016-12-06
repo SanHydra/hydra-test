@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by hudongwx on 16-11-19.
+ * created by 李啸峰
  */
 public class SysApplication extends Application {
 

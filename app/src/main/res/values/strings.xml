@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">唧唧浏览器</string>
+    <string name="introduce">本软件由某膜法师斥巨资制作,耗时12小时，精疲力尽、呕心沥血才得以完成，可歌可泣！天地同庆！ r\n ps:其实只是某菜鸡初学者调了ｎ多bug，遇到了无数难题并百度解决之后才完成的一个垃圾应用！ r\n BY 某剧毒无比的爱好编程的膜法师</string>
+    <string name="mofa">我实在我也不是谦虚，我一个普通的膜法师，怎么到安卓来了呢？但是呢，老王同志讲了‘大家已经研究决定了’，所以后来我就念了两首诗，叫“苟利国家生死以，岂因福祸趋避之”</string>
+    <string name="sm">《声明》</string>
 </resources>
