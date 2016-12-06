@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookmarksActivity">
+    <TextView
+        android:text="书签/历史记录"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="历史记录"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+         <ImageView
+             android:src="@drawable/arrow_right"
+             android:layout_alignParentRight="true"
+             android:layout_width="30dp"
+             android:layout_height="30dp" />
+
+    </RelativeLayout>
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/menu_sq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+</LinearLayout>

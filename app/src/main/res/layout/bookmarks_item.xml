@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:text="测试"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/tv_item_url"
+        android:text="测试"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:layout_below="@id/tv_item_title"
+        android:layout_width="240dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/tv_item_date"
+        android:text="时间"
+        android:gravity="right|center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="130dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hudongwx.test.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/web_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:singleLine="true"
+            android:selectAllOnFocus="true"
+            android:id="@+id/web_input"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@null"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="跳转"
+            android:id="@+id/web_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/web_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <WebView
+        android:id="@+id/web_wv_1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <LinearLayout
+        android:id="@+id/web_foot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:text="菜单"
+            android:id="@+id/web_menu"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/web_back"
+            android:text="后退"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/web_forward"
+            android:layout_weight="1"
+            android:text="前进"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/web_refresh"
+            android:layout_weight="1"
+            android:text="刷新"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/web_exit"
+            android:layout_weight="1"
+            android:text="退出"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
